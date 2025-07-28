@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@theme{
+    --color-blhblhblh : rgb(34, 32, 165);
+    --img : 'url(./src/assets/A cozy table set for two with elegant tableware and a vase of fresh flowers.png)'
+}
+
+@layer base{
+    h1{
+        @apply text-5xl font-black
+    }
+}
+
+@layer components{
+    .circle{
+        @apply w-72 h-72 bg-black rounded-full transition-all  duration-500 hover:bg-gray-400
+    }
+}
